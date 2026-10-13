@@ -1,0 +1,21 @@
+<Window x:Class="HashtagCopier.ImportExportDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Импорт / Экспорт" Width="360" SizeToContent="Height"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="#1E1E1E">
+    <StackPanel Margin="20">
+        <TextBlock Text="Экспорт" Foreground="White" FontWeight="Bold" Margin="0,0,0,6"/>
+        <Button Content="Сохранить базу в файл…" Padding="10" Click="Export_Click"/>
+        <TextBlock Text="Сохраняет текущую базу франшиз и персонажей в .json"
+                   Foreground="#888" FontSize="11" Margin="0,4,0,16" TextWrapping="Wrap"/>
+
+        <TextBlock Text="Импорт" Foreground="White" FontWeight="Bold" Margin="0,0,0,6"/>
+        <Button Content="Загрузить базу из файла…" Padding="10" Click="Import_Click"/>
+        <TextBlock Text="Заменит текущую базу. Можно выбрать: заменить или объединить."
+                   Foreground="#888" FontSize="11" Margin="0,4,0,16" TextWrapping="Wrap"/>
+
+        <Button Content="Закрыть" Padding="8" IsCancel="True"/>
+    </StackPanel>
+</Window>

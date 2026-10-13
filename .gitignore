@@ -1,0 +1,107 @@
+# ===== Сборка и артефакты =====
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# ===== Visual Studio / VS Code =====
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+*.sln.iml
+
+# ===== JetBrains Rider =====
+.idea/
+*.sln.iml
+
+# ===== .NET / NuGet =====
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+!packages/build/
+!packages/**/*.props
+!packages/**/*.targets
+
+# ===== Публикация =====
+publish/
+*.publishsettings
+publishscripts/
+PublishProfiles/
+
+# ===== Личные данные программы =====
+# Локальная база с твоими франшизами/персонажами — не выкладываем в публичный репозиторий
+data.json
+*.backup.json
+backup_*.json
+hashtagcopier_*.json
+
+# Но пример базы — выкладываем (если добавишь)
+!data.example.json
+
+# ===== OS-специфичные =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== Временные файлы =====
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.orig
+*.rej
+
+# ===== ReSharper =====
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ===== NCrunch / TestResults =====
+*.ncrunch*
+.*crunch*.local.xml
+nCrunchTemp_*
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-results.xml
+
+# ===== Иконки приложения (если появятся в корне) =====
+# Не исключаем — раскомментируй, если не хочешь их коммитить
+# *.ico
